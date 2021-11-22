@@ -1,4 +1,5 @@
 // import "./App.css";
+import Lotti from "./components/Lotti";
 import PdfPage from "./components/PdfPage";
 import Stopwatch from "./components/Refs";
 // import DataTables from "./components/DataTables";
@@ -10,7 +11,8 @@ function App() {
       {/* <DataTables /> */}
       {/* <LocalStore /> */}
       {/* <Stopwatch /> */}
-      <PdfPage />
+      {/* <PdfPage /> */}
+      <Lotti />
     </div>
   );
 }
