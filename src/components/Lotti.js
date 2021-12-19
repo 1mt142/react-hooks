@@ -16,7 +16,9 @@ function Lotti() {
           buttons={["play", "repeat", "frame", "debug"]}
         />
       </Player>
-      <h1>Please Check Your Internet Connection</h1>
+      <h1 className="text-center text-danger mt-4">
+        Please Check Your Internet Connection
+      </h1>
     </div>
   );
 }

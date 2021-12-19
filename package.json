@@ -17,6 +17,7 @@
     "react-dom": "^17.0.2",
     "react-encrypt": "^1.0.1",
     "react-pdf": "^5.5.0",
+    "react-router-dom": "^6.2.1",
     "react-scripts": "4.0.1",
     "reactstrap": "^8.9.0",
     "styled-components": "^5.3.0",
