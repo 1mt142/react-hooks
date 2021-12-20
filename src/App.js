@@ -6,6 +6,7 @@ import routes from "./routes";
 // import LocalStore from "./components/LocalStore";
 
 function App() {
+  console.log(`${process.env.REACT_APP_NAME} ${process.env.REACT_APP_VERSION}`);
   return (
     <div className="App">
       <BrowserRouter>

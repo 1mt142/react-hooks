@@ -1,4 +1,5 @@
 import DataTables from "./components/DataTables";
+import InfiniteScroll from "./components/InfiniteScroll";
 import Lotti from "./components/Lotti";
 import PdfPage from "./components/PdfPage";
 import Stopwatch from "./components/Refs";
@@ -41,6 +42,11 @@ const routes = [
     name: "PDF",
     components: <PdfPage />,
     url: `/pdf`,
+  },
+  {
+    name: "Photos",
+    components: <InfiniteScroll />,
+    url: `/photos`,
   },
 ];
 export default routes;
