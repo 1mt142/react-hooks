@@ -1,7 +1,13 @@
 // import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import "./App.css";
+import React, { Suspense } from "react";
+import { useTranslation } from "react-i18next";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import StyleComponent from "./components/StyleComponent";
 import routes from "./routes";
+import fan from "./assets/images/fan.png";
+import { Button } from "@material-ui/core";
+import "./i18n";
 
 // import LocalStore from "./components/LocalStore";
 
@@ -39,6 +45,8 @@ function App() {
           ))}
         </Routes>
       </BrowserRouter>
+      {/* <StyleComponent imgUrl={fan} /> */}
+      <Button>Bangla</Button>
     </div>
   );
 }

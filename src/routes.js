@@ -3,6 +3,7 @@ import InfiniteScroll from "./components/InfiniteScroll";
 import Lotti from "./components/Lotti";
 import PdfPage from "./components/PdfPage";
 import Stopwatch from "./components/Refs";
+import StyleComponent from "./components/StyleComponent";
 import TsParticles from "./components/TsParticles";
 
 const routes = [
@@ -47,6 +48,11 @@ const routes = [
     name: "Photos",
     components: <InfiniteScroll />,
     url: `/photos`,
+  },
+  {
+    name: "Style",
+    components: <StyleComponent />,
+    url: `/style`,
   },
 ];
 export default routes;
